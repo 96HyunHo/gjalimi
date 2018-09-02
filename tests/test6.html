@@ -5,14 +5,12 @@
 </head>
 
 <body>
-
 <style>
 .alert {
     padding: 20px;
     background-color: #AEB404;
     color: white;
 }
-
 .closebtn {
     margin-left: 15px;
     color: white;
@@ -23,12 +21,10 @@
     cursor: pointer;
     transition: 0.3s;
 }
-
 .closebtn:hover {
     color: black;
 }
 </style>
-
 <noscript>
 <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
@@ -46,7 +42,6 @@ function view(){
  }
 }
 </script>
-
 <form name="form" method="post">
 <input type="radio" name="type" value="1" onclick="view()" checked>시간표만 보기 <input type="radio" name="type" value="2" onclick="view()">관련사이트 보기
 <div id="cattery" style="display:none;"> <h2>운행정보 조회가능 사이트</h2>
