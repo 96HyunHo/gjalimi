@@ -2,19 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-
-
- if(
-document.referrer.indexOf('kko') !== -1 ||
-document.referrer.indexOf('kakao') !== -1 ||
-document.referrer.indexOf('kakaotalk') !== -1 ||
-document.referrer.indexOf('huff') !== -1
-) {
-location.href = 'https://SJang1.github.com/'
-}
-
-
-</head>
+	</head>
 
 <body>
 <style>
@@ -38,22 +26,21 @@ location.href = 'https://SJang1.github.com/'
 }
 </style>
 <noscript>
-<div class="alert">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  자바스크립트를 사용할 수 없는 환경에서는 표출이 정상적으로 되지 않을 수 있습니다.<br/>
-  브라우저에서 자바스크립트를 활성화하시거나 다른 브라우저를 이용해주시기 바랍니다.
-</div>
-</noscript>
+	<div class="alert">
+	자바스크립트를 사용할 수 없는 환경에서는 표출이 정상적으로 되지 않을 수 있습니다.<br/>
+	브라우저에서 자바스크립트를 활성화하시거나 다른 브라우저를 이용해주시기 바랍니다.
+	</div>
+	</noscript>
 <script language="javascript">
-function view(){
- var f=document.form;
- if(f.type[0].checked==true){
- document.all.cattery.style.display="none";
- }else{
- document.all.cattery.style.display="";
- }
-}
-</script>
+	function view(){
+	 var f=document.form;
+	 if(f.type[0].checked==true){
+	 document.all.cattery.style.display="none";
+	 }else{
+	 document.all.cattery.style.display="";
+	 }
+	}
+	</script>
 <form name="form" method="post">
 <input type="radio" name="type" value="1" onclick="view()" checked>시간표만 보기 <input type="radio" name="type" value="2" onclick="view()">관련사이트 보기
 <div id="cattery" style="display:none;"> <h2>운행정보 조회가능 사이트</h2>
@@ -62,7 +49,7 @@ function view(){
 <p><a href="https://rail.blue" target="_blank">오글 로리</a></p>
 <h2>운영자에게 문의</h2>
 <p>"열차 안내" 서비스는 Rail+ 철도동호회에 문의하시면 처리해드릴 수 없을 수도 있습니다.</p>
-<p>가능한 경우 <a href="http://pf.kakao.com/_jxgxnId/chat" target="_blank">이곳을 눌러</a> 카카오톡으로 문의주시거나 <a href="mailto:gjalimi@naver.com?cc=djraymond1@naver.com&subject=열차 안내 문의사항&body=문의유형 선택 : (시간표)작성요청 / 오류문의 / (시간표)삭제요청 / 제휴 및 제안문의 %0D%0A===================================================%0D%0A작성요청의 경우 해당 열차가 무슨 열차인지 기재해주세요. %0D%0A사이트 오류의 경우 이용중인 기기의 OS정보, 해당 스크린샷이나 영상을 첨부해주시면 더욱 도움이 됩니다. %0D%0A===================================================%0D%0A문의내용 : (여기에 작성해주세요)">이곳을 눌러</a> 메일을 보내주세요.</p>
+<p>가능한 경우 <a href="http://pf.kakao.com/_jxgxnId/chat" target="_blank">이곳을 눌러</a> 카카오톡으로 문의주시거나 <a href="mailto:gjalimi@naver.com?cc=djraymond1@naver.com&subject=열차 안내 문의사항&body=문의유형 선택 : (시간표)작성요청 / 오류문의 / (시간표)삭제요청 / 광고문의 / 제휴 및 제안문의 %0D%0A===================================================%0D%0A작성요청의 경우 해당 열차가 무슨 열차인지 기재해주세요. %0D%0A사이트 오류의 경우 이용중인 기기의 OS정보, 해당 스크린샷이나 영상을 첨부해주시면 더욱 도움이 됩니다. %0D%0A===================================================%0D%0A문의내용 : (여기에 작성해주세요)">이곳을 눌러</a> 메일을 보내주세요.</p>
 <h2>Rail+철도동호회에서 알려드리는</h2>
 <p><a href="http://cafe.daum.net/kicha/9crm/3" target="_blank">철도 사진 촬영시 유의사항</a></p>
 <p><br/>===================================================<br/></p>
